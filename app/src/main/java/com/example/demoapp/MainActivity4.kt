@@ -27,7 +27,7 @@ class MainActivity4 : AppCompatActivity() {
         getdetailsc.setOnClickListener {
             if(companyname.text.toString().isNotEmpty()) {
                 val intent = Intent(this, MainActivity5::class.java)
-                intent.putExtra("company_name", companyname.text.toString())
+                intent.putExtra("company_name", companyname.text.toString().toLowerCase())
                 startActivity(intent)
             }
             else{

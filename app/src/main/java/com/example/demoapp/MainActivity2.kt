@@ -35,7 +35,7 @@ class MainActivity2 : AppCompatActivity() {
 //                putExtra("Student_roll",rollnumberfield.text.toString())
 
                 val intent = Intent(this, MainActivity3::class.java)
-                intent.putExtra("Student_roll", rollnumberfield.text.toString())
+                intent.putExtra("Student_roll", rollnumberfield.text.toString().toUpperCase())
                 startActivity(intent)
             }
             else{

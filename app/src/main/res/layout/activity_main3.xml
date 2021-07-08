@@ -445,11 +445,12 @@
             android:id="@+id/back_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="155dp"
-
+            android:background="@drawable/input"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
             android:text="Back"
             android:textColor="@color/black"
-            app:backgroundTint="#4AECDC"
+            app:backgroundTint="#DA8E8E"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/cardview" />
 
